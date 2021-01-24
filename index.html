@@ -1,429 +1,905 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <!-- meta -->
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Harsh Laheri - Personal Portfolio </title>
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>My Portfolio</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-  <link href="lib/hover/hover.min.css" rel="stylesheet">
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <!-- Responsive css -->
-  <link href="css/responsive.css" rel="stylesheet">
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="images/favicon.png">
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
 
 </head>
 
-<body>
+<body id="top">
 
-  <!-- start section navbar -->
-  <nav id="main-nav">
-    <div class="row">
-      <div class="container">
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">My Portfolio</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+						<!--<li><a href="styles.html" title="">Style Demo</a></li> -->				
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>{ Hello, World. ; } </h5>
+	   			<h1>I'm Harsh Laheri.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Front-end Developer</span>
+	   				<span>Back-end Developer</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="https://instagram.com/laheri._.harsh?igshid=10foyfikcx5ai"><i class="fa fa-instagram"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+   				<p class="lead">Hello !! Welcome. My Name Is Harsh Laheri. I khow That You are Looking For Web Daveloper . You are at right place i know about Basic languages plus  now i am studing additional laguage .  </p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
 
-        <div class="logo">
-          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-        </div>
+   			<h3>Profile</h3>
+   			<p>Here Is All about me..</p>
 
-        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Laheri Harsh G.</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>September 14, 2001</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span> Studying </span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span></span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>harshlaheri11@gmail.com</span>
+   				</li>
 
-        <ul class="nav-menu list-unstyled">
-          <li><a href="#header" class="smoothScroll">Home</a></li>
-          <li><a href="#about" class="smoothScroll">About</a></li>
-          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
-          <li><a href="#journal" class="smoothScroll">Blog</a></li>
-          <li><a href="#contact" class="smoothScroll">Contact</a></li>
-        </ul>
+   			</ul> <!-- /info-list -->
 
-      </div>
-    </div>
-  </nav>
-  <!-- End section navbar -->
+   		</div>
 
+   		<div class="col-six tab-full">
 
-  <!-- start section header -->
-  <div id="header" class="home">
+   			<h3>Skills</h3>
+   			<p> here is my Skill Bars I Khow Thats much But In future I Will Khow much .</p>
 
-    <div class="container">
-      <div class="header-content">
-        <h1>I'm <span class="typed"></span></h1>
-        <p>designer, developer, Freelancer</p>
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>HTML5</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>CSS3</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>50%</span></div>
+				   	<strong>JQuery</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent95"><span>60%</span></div>
+				   	<strong>PHP</strong>
+				   </li>
+				   <li>
 
-        <ul class="list-unstyled list-social">
-          <li><a href="https://www.facebook.com/harsh.laheri.7"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="https://instagram.com/laheri._.harsh?igshid=10foyfikcx5ai"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
-          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- End section header -->
+				   	<div class="progress percent75"><span>70%</span></div>
+				   	<strong>Python</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
 
+   		</div>
 
-  <!-- start section about us -->
-  <div id="about" class="paddsection">
-    <div class="container">
-      <div class="row justify-content-between">
+   	</div>
 
-        <div class="col-lg-4 ">
-          <div class="div-img-bg">
-            <div class="about-img">
-              <img src="images/me.jpg" class="img-responsive" alt="me">
-            </div>
-          </div>
-        </div>
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="#" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>   		
+   	</div>
 
-        <div class="col-lg-7">
-          <div class="about-descr">
+   </section> <!-- /process-->    
 
-            <p class="p-heading">im a WEb designer  i Do  My Best At All PRojects And WOrks.i loves clean, simple & unique design. i also enjoy crafting brand identities, icons, & ilustration work. </p>
-            <p class="separator"></p>
 
-          </div>
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
 
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end section about us -->
+		<div class="row section-intro">
+   		<div class="col-twelve">
 
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
 
-  <!-- start section services -->
-  <div id="services">
-    <div class="container">
+   			<p class="lead">Now I am studing at 'Government Polytechnic Himmatnagar' in field of Computer Engineering </p>
 
-        <div class="services-carousel owl-theme">
+   		</div>   		
+   	</div> <!-- /section-intro--> 
 
-          <div class="services-block">
+   	<div class="row resume-timeline">
 
-            <i class="ion-ios-browsers-outline"></i>
-            <span>UI/UX DESIGN</span>
-            <p class="separator">WE HAve best UI/UX designers.. </p>
+   		<div class="col-twelve resume-header">
 
-          </div>
+   			
+   	
+   	<div class="row resume-timeline">
 
-          <div class="services-block">
+   		<div class="col-twelve resume-header"> 
 
-            <i class="ion-ios-lightbulb-outline"></i>
-            <span>BRAND IDENTITY</span>
-            <p class="separator">our motto is only that our client's Project MEans our PRoject.. </p>
+   			<h2>Education</h2>
 
-          </div>
+   		</div> <!-- /resume-header -->
 
-          <div class="services-block">
+   		<div class="col-twelve">
 
-            <i class="ion-ios-color-wand-outline"></i>
-            <span>WEB DESIGN</span>
-            <p class="separator">OUr BEst Designer is waiting For YOU Let's Make YOur PRoject BEst.</p>
+   			<div class="timeline-wrap">
 
-          </div>
+   				<div class="timeline-block">
 
-          <div class="services-block">
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
 
-            <i class="ion-social-android-outline"></i>
-            <span>MOBILE APPS</span>
-            <p class="separator">We Are Here To Make Application For YOU. </p>
+	   				<div class="timeline-header">
+	   					<h3>Diploma</h3>
+	   					<p>July 2018 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Gujarat Technological university</h4>
+	   					<p>I am Studing Right Now at GTU Linked Government Polytechnnic Himmatnagar in field Of Computer Engineering .</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>School </h3>
+	   					<p>2005-2018 </p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Shree Mati Shantaben hariBhai Gajera Higher-secondery school</h4>
+	   					<p>I Studid at Shree Mati Shantaben hariBhai Gajera Higher-secondery school in 13 years and learn about Many Subjects. </p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Check Out Some of My Works.</h1>
+
+   			<p class="lead">I Have Done many Projects Here It is Check it.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/liberty.jpg" alt="Liberty">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Liberty</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  Graphic Design
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Shutterbug</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Web Design
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/clouds.jpg"alt="Clouds">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Clouds</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Web Design
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	           <!-- <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/beetle.jpg" alt="Beetle">
+	                  <a href="#modal-04" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Beetle</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Branding
+		     					      </span>		     		
+		     					   </div>  	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div>--> <!-- /folio-item -->     
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
+	                  <a href="#modal-05" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Lighthouse</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Web Development
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/salad.jpg" alt="Salad">
+	                  <a href="#modal-06" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Gayatri-cateres</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Branding
+		     					      </span>		     		
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->   
+
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-liberty.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Liberty</h4>		      
+					      <p>Statue of Liberty . its edited Photo .</p>
+
+					      <div class="categories">Web Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Shutterbug</h4>		     
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-clouds.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Clouds</h4>		      
+					      
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
 
-          </div>
+				   </div> <!-- /modal-03 -->
 
-          <div class="services-block">
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
 
-            <i class="ion-ios-analytics-outline"></i>
-            <span>Analytics</span>
-            <p class="separator">YOu can analytic about oUr WEB </p>
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+				     	</div>      	
 
-          </div>
+					   <div class="description-box">
+					      <h4>Beetle</h4>		      
+					      
+					      <div class="categories">Branding</div>			               
+					   </div>
 
-          <div class="services-block">
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
 
-            <i class="ion-ios-camera-outline"></i>
-            <span>PHOTOGRAPHY</span>
-            <p class="separator">WE Give You Best Photography... </p>
+				   </div> <!-- /modal-04 -->
 
-          </div>
+				   <div id="modal-05" class="popup-modal slider mfp-hide">	
 
-        </div>
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+				     	</div>      	
 
-    </div>
+					   <div class="description-box">
+					      <h4>Lighthouse</h4>		      
+					      
 
-  </div>
-  <!-- end section services -->
+					      <div class="categories">Web Development</div>			               
+					   </div>
 
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
 
-  <!-- start section portfolio -->
-  <div id="portfolio" class="text-center paddsection">
+				   </div> <!-- /modal-05 -->
 
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>My Portfolio</h2>
-      </div>
-    </div>
+				   <div id="modal-06" class="popup-modal slider mfp-hide">	
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
+				     	</div>      	
 
-          <div class="portfolio-list">
+					   <div class="description-box">
+					      <h4>Salad</h4>		      
+					      
 
-            <ul class="nav list-unstyled" id="portfolio-flters">
-              <li class="filter filter-active" data-filter=".all">all</li>
-              <li class="filter" data-filter=".branding">branding</li>
-              <li class="filter" data-filter=".mockups">mockups</li>
-              <li class="filter" data-filter=".uikits">ui kits</li>
-              <li class="filter" data-filter=".webdesign">web design</li>
-              
-            </ul>
+					      <div class="categories">Branding</div>			               
+					   </div>
 
-          </div>
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
 
-          <div class="portfolio-container">
+				   </div> <!-- /modal-06 -->
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
-              <a class="popup-img" href="images/portfolio/1.jpg">
-                <img src="images/portfolio/1.jpg" alt="img">
-              </a>
-            </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
-              <a class="popup-img" href="images/portfolio/2.jpg">
-                <img src="images/portfolio/2.jpg"  alt="img">
-              </a>
-            </div>
+				   <!-- modal popups - end
+	            ============================================================= -->
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
-              <a class="popup-img" href="images/portfolio/3.jpg">
-                <img src="images/portfolio/3.jpg" alt="img">
-              </a>
-            </div>
+	         </div> <!-- /portfolio-wrapper --> 
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography">
-              <a class="popup-img" href="images/portfolio/4.jpg">
-                <img src="images/portfolio/4.jpg" alt="img">
-              </a>
-            </div>
+   		</div>  <!-- /twelve -->   
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits photography">
-              <a class="popup-img" href="images/portfolio/5.jpg">
-                <img src="images/portfolio/5.jpg" alt="img">
-              </a>
-            </div>
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
-              <a class="popup-img" href="images/portfolio/6.jpg">
-                <img src="images/portfolio/6.jpg" alt="img">
-              </a>
-            </div>
 
-          </div>
-        </div>
-      </div>
-    </div>
+	
+	<section id="services">
 
-  </div>
-  <!-- End section portfolio -->
+		<div class="overlay"></div>
 
+		<div class="row section-intro">
+   		<div class="col-twelve">
 
-  <!-- start section journal -->
-  <div id="journal" class="text-left paddsection">
+   			<h5>Services</h5>
+   			<h1>What Can I Do For You?</h1>
 
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>journal</h2>
-      </div>
-    </div>
+   			<p class="lead">Web Davloping, web Designing ,Graphic Designing </p>
 
-    <div class="container">
-      <div class="journal-block">
-        <div class="row">
+   		</div>   		
+   	</div> <!-- /section-intro -->
 
-          <div class="col-lg-4 col-md-6">
-            <div class="journal-info">
+   	<div class="row services-content">
 
-              <a href="blog-single.html"><img src="images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+   		<div id="owl-slider" class="owl-carousel services-list">
 
-              <div class="journal-txt">
+	      	<div class="service">	
 
-                <h4><a href="blog-single.html">SO LETS MAKE THE MOST BEAUTIFUL WEB </a></h4>
-                <p class="separator">HEre WE are For Your WEb making beautiful..
-                </p>
+	      		<span class="icon"><i class="icon-earth"></i></span>            
 
-              </div>
+	            <div class="service-content">	
 
-            </div>
-          </div>
+	            	 <h3>Webdesign</h3>
 
-          <div class="col-lg-4 col-md-6">
-            <div class="journal-info">
+		            <p class="desc">What You Imagine, I will make that type of design And also make Changes in That Site   
+	         		</p>
+	         		
+	         	</div> 	         	 
 
-              <a href="blog-single.html"><img src="images/blog-post-2.jpg" class="img-responsive" alt="img"></a>
+				</div> <!-- /service -->
 
-              <div class="journal-txt">
+				<div class="service">	
 
-                <h4><a href="#blog-single.html">WE'RE  HERE FOR  MAKE YOUR DREAMS TRUE</a></h4>
-                <p class="separator">We Have Best Designers Who is Waiting For YOur REsponce ..So let's Do iT 
-                </p>
+					<span class="icon"><i class="icon-window"></i></span>                          
 
-              </div>
+	            <div class="service-content">	
 
-            </div>
-          </div>
+	            	<h3>Web Development</h3>  
 
-          <div class="col-lg-4 col-md-6">
-            <div class="journal-info">
+		            <p class="desc">Which type of Web You want ONly Send us message and we Will contact YOU And make Web Which type You Want We Are Here For YOu 
+	         		</p>
 
-              <a href="blog-single.html"><img src="images/blog-post-3.jpg" class="img-responsive" alt="img"></a>
+	            </div>	                          
 
-              <div class="journal-txt">
+			   </div> <!-- /service -->
 
-                <h4><a href="blog-single.html">NOW DAYS ALL WANT TO BE DIFFERANT AND ATTRACTIVE</a></h4>
-                <p class="separator">WE are Here to Make it true and gives you differant from others
-                </p>
+			   <div class="service">
 
-              </div>
+			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
 
-            </div>
-          </div>
+	            <div class="service-content">
 
-        </div>
-      </div>
-    </div>
+	            	<h3>Branding</h3>
 
-  </div>
-  <!-- End section journal -->
+		            <p class="desc">resently I have Done Cateres web That is Nice WEb Said BY our Customer
+	        			</p> 
 
+	            </div> 	            	               
 
-  <!-- start sectoion contact -->
-  <div id="contact" class="paddsection">
-    <div class="container">
-      <div class="contact-block1">
-        <div class="row">
+			   </div> <!-- /service -->
 
-          <div class="col-lg-6">
-            <div class="contact-contact">
+				<div class="service">
 
-              <h2 class="mb-30">GET IN TOUCH</h2>
+					<span class="icon"><i class="icon-toggles"></i></span>	              
 
-              <ul class="contact-details">
-                <li><span>Amreli,Gujrat,INDIA</span></li>
-                <li><span>+91 7096668372</span></li>
-                <li><span>harshlaheri11@gmail.com</span></li>
-              </ul>
+	            <div class="service-content">
+	         		
+	            </div>                
 
-            </div>
-          </div>
+				</div> <!-- /service -->
 
-          <div class="col-lg-6">
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="row">
+			   <div class="service">
 
-                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
+			   	<span class="icon"><i class="icon-image"></i></span>	            
 
-                <div class="col-lg-6">
-                  <div class="form-group contact-block1">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
+	            <div class="service-content">
+
+	            	<h3>Graphics Design</h3>
+
+		            <p class="desc">We Also Do Graphic Designing , we have Best Graphic Designers And MAny projects We have done .
+	        			</p> 
+
+	            </div>	               
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
+
+	            <div class="service-content">
+
+	            	 
+	            </div>	               
+
+			   </div> <!-- /service -->
+
+	      </div> <!-- /services-list -->
+   		
+   	</div> <!-- /services-content -->
+		
+	</section> <!-- /services -->	
+
+
+	<!-- stats Section
+   ================================================== -->
+	<section id="stats" class="count-up">
+
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							20
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div> <!-- /stat -->					
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							18
+						</h3>
+
+						<h5 class="stat-title">
+							Happy Clients
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-badge"></i>
+						</div>
+
+						<h3 class="stat-count">
+							10
+						</h3>
+
+						<h5 class="stat-title">
+							Awards Received
+						</h5>
+
+					</div> <!-- /stat -->									
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							50
+						</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-cup"></i>
+						</div>
+
+						<h3 class="stat-count">
+							150
+						</h3>
+
+						<h5 class="stat-title">
+							Coffee Cups
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							500
+						</h3>
+
+						<h5 class="stat-title">
+							Hours
+						</h5>
+
+					</div> <!-- /stat -->
+
+				</div> <!-- /stats-list -->
+
+			</div> <!-- /twelve -->
+		</div> <!-- /row -->
+
+	</section> <!-- /stats -->
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			<p class="lead">We Are Waiting For Your responce and We Can Do Wich Type oF Work Do You Want From Us..</p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
                   </div>
-                </div>
-
-                <div class="col-lg-6">
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
                   </div>
-                </div>
 
-                <div class="col-lg-12">
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
+      			</fieldset>
+      		</form> <!-- Form End -->
 
-                <div class="col-lg-12">
-                  <div class="form-group">
-                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                    <div class="validation"></div>
-                  </div>
-                </div>
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
 
-                <div class="col-lg-12">
-                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
-                </div>
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
 
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- start sectoion contact -->
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+            Santi Complex<br>
+            Dhari- Road <br>
+            365601 Amreli
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>harshlaheri11@gmail.com<br>			     
+			   </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone: 7090666837<br>
+			   	Mobile: 848809565<br>
+			     	
+			   </p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
 
 
-  <!-- start section footer -->
-  <div id="footer" class="text-center">
-    <div class="container">
-      <div class="socials-media text-center">
+   <!-- footer
+   ================================================== -->
 
-        <ul class="list-unstyled">
-          <li><a href="https://www.facebook.com/harsh.laheri.7"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="https://instagram.com/laheri._.harsh?igshid=10foyfikcx5ai"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
-          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
-        </ul>
+   <footer>
+     	<div class="row">
 
-      </div>
+     		<div class="col-six tab-full pull-right social">
 
-      <p>&copy; Copyrights HArsh Laheris. All rights reserved.</p>
+     			<ul class="footer-social">        
+			      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			      <li><a href="https://instagram.com/laheri._.harsh?igshid=10foyfikcx5ai"><i class="fa fa-instagram"></i></a></li>
+			   </ul> 
+	      		
+	      </div>
 
-      <div class="credits">
-        
-        Designed by <a href="#"> <b>HArsh Laheri</b></a>
-      </div>
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright HarshLaheri 2020.</span> 
+		        	<span>Design by <a href="#">HArshLaheri</a></span>	         	
+		         </div>		                  
+	      	</div>
 
-    </div>
-  </div>
-  <!-- End section footer -->
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/typed/typed.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+      	</div> <!-- /row -->     	
+   </footer>  
 
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
 </body>
 
